@@ -19,3 +19,7 @@ var so = 0
 for (let i = 0; i < matriz.length; i++) { 
   so = so+ matriz[i][0]}
 console.log (so)
+var diag = 0
+for (let i = 0; i < matriz.length; i++) { 
+  diag = diag+ matriz[i][i] }
+console.log (diag)
